@@ -1,0 +1,39 @@
+{
+  "name": "cryptocurrency-charting-tool",
+  "version": "1.0.0",
+  "description": "Gathers bitcoin values and charts them",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "build": "webpack -d --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xApnea/cryptocurrency-charting-tool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xApnea/cryptocurrency-charting-tool/issues"
+  },
+  "homepage": "https://github.com/xApnea/cryptocurrency-charting-tool#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chart.js": "^2.9.3",
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.44.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-styled-components": "^1.10.7",
+    "nodemon": "^2.0.4",
+    "webpack-cli": "^3.3.12"
+  }
+}
